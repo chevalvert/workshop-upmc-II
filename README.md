@@ -23,9 +23,21 @@ Une autre possibilité est de lier la génération graphique de Processing à de
 - S'initier à Processing
 - S'initier à Arduino
 - S'initier aux capteurs
-- Faire communiquer les deux programmes
-- Concevoir et prototyper un dispositif/expérience de captation (par groupes de 3)
+- Faire communiquer Processing et Arduino
+- Concevoir et prototyper un dispositif ou une expérience de captation/perception (par groupes de 3)
 - Présenter le projet lors de la dernière séance
+
+## Processus et documentation 
+
+Tout au long du workshop vous devrez respecter une méthodologie de documentation de vos projets. Pour cela :
+- Nous analyserons la méthodologie pour concevoir, réaliser et documenter des prototypes de dispositifs interactifs (étude de cas du projet ["Ink under paper"](https://bricks.chevalvert.fr/projects/ink-under-paper/user:upmc) du studio Chevalvert)
+- Pour chacun de vos projets vous réaliserez :
+	- la note d’intention
+    - le diagramme d’interaction
+    - le diagramme technique
+    - le descriptif du programme
+    - le programme
+    - la vidéo de documentation du projet
 
 ## Sujet : Humanimal
 ### Être capteur
@@ -150,3 +162,7 @@ Une carte Arduino communique avec son environnement par l’intermédiaire de se
 L’Arduino étant un ordinateur spécialisé dans la gestion de capteurs et d’actionneurs, c’est un programme qui va décider de la manière donc les capteurs et les actionneurs sont utilisés. C'est de l’électronique programmable (à microcontrôleur).
 
 Les fonctions et bibliothèques sont écrites en langage C ou C++ 
+
+## License
+
+[MIT.](https://tldrlegal.com/license/mit-license)
