@@ -52,11 +52,17 @@ void loop() {
 [→ exercice 2 : LED + potentiomètre](/2-Arduino/ex02_LED_potentiometer)
 
 
-### 3 - Structures de contrôle
+### 3 - Structures de contrôle, opérateurs boléens et `digitalRead()`
+Structures de contrôle :
 - `if ...`
 - `if ... else ...`
 - `if ... else if ... else`
 - `switch`et `case` 
+
+Opérateurs boléens :
+- `&&`  and
+- `||`  or 
+- `!`  different from
 
 [→ exercice 3 : LED + boutton pressoir](/2-Arduino/ex03_pushbuttons_LEDs)
 

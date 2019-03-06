@@ -1,13 +1,13 @@
 ![ex02_led_potentiometer.png](ex02_led_potentiometer.png)
 
 # Description du programme
-Mesurer la position d’un potentiomètre et l’utiliser pour contrôler le taux de clignotement d'une LED.
+Mesurer la position d’un potentiomètre et l’utiliser pour contrôler le rythme de clignotement d'une LED.
 
 # Matériel
   - Arduino Uno
   - LED
   - Résistance 220 ohm
-  - Potentiometer
+  - Potentiomètre
   - Breadboard
   - Câbles
 
