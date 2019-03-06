@@ -23,21 +23,28 @@ Une autre possibilité est de lier la génération graphique de Processing à de
 - S'initier à Processing
 - S'initier à Arduino
 - S'initier aux capteurs
-- Faire communiquer Processing et Arduino
+- Faire communiquer Processing et Arduino en utilisant la librairie SensorShield
 - Concevoir et prototyper un dispositif ou une expérience de captation/perception (par groupes de 3)
 - Présenter le projet lors de la dernière séance
 
 ## Processus et documentation 
 
 Tout au long du workshop vous devrez respecter une méthodologie de documentation de vos projets. Pour cela :
+
 - Nous analyserons la méthodologie pour concevoir, réaliser et documenter des prototypes de dispositifs interactifs (étude de cas du projet ["Ink under paper"](https://bricks.chevalvert.fr/projects/ink-under-paper/user:upmc) du studio Chevalvert)
-- Pour chacun de vos projets vous réaliserez :
+
+- Pour chacun des exercices pratiques vous créerez un dossier avec
+	- le programme
+	- le schéma du circuit (s'il y en a)
+	- une photo du circuit et/ou une capture d'écran du résultat visuel du programme
+	- une vidéo du dispositif en action
+
+- Pour le projet final vous réaliserez :
 	- la note d’intention
-    - le diagramme d’interaction
-    - le diagramme technique
     - le descriptif du programme
-    - le programme
-    - la vidéo de documentation du projet
+    - le synoptique technique
+    - le programme et le circuit nécessaire
+    - la documentation photo et/ou vidéo  
 
 ## Sujet : Humanimal
 ### Être capteur
@@ -57,12 +64,12 @@ Nous percevons le monde extérieur grâce à nos organes de sens.
 En permanence, nous analysons de manière plus ou moins consciente les informations dont nous disposons grâce à nos yeux, nos oreilles, notre langue, notre nez et notre peau. Bref, nos capteurs naturels.
 
 Il y a diverses modalités de stimulus :
-— lumière
-— son
-— pression
-— température
-— goût
-— odeurs
+- lumière
+- son
+- pression
+- température
+- goût
+- odeurs
 
 **L'outil**
 «L’outil apparaît comme une véritable sécrétion du corps et du cerveau ; on peut donc appliquer à cet organe artificiel les normes des organes naturels.» Le Geste et la parole, André Leroi-Gourhan. 1964, vol. 1
@@ -103,30 +110,50 @@ Groupe
 
 ### Déroulé
 Cours 1 (salle informatique) : 
-- Présentation des projets des groupes
-- Initiation à Processing
+- Présentation Chevalvert et projets (30min)
+- Initiation à Processing : outil de dessin (2h)
+- Présentation des projets des groupes (1h)
+- Travailler sur le projet (30min)
+	- le tableau de compétence animal
+	- la note d’intention
+	- le descriptif du programme
+	- le synoptique technique
 
 Cours 2 (salle informatique) :
-- Complétion du tableau avec les capteurs disponibles sur Adafruit
-- Conception des dispositifs : diagrammes d'interaction et PoC
+- Initiation à Processing ?
+- Initiation à Arduino ?
+- Complétion du tableau avec les capteurs disponibles sur Adafruit/Sparkfun
+- Complétion du tableau avec les capteurs disponibles au fablab
+- Complétion du tableau avec des solutions low tech
 
 Cours 3 (salle crea) :
-- Initiation à Arduino
+- Initiation à Arduino ?
+- Communication Processing < > Arduino
 - Initiation aux capteurs
+- Conception des dispositifs : 
+	- la note d’intention
+	- le descriptif du programme
+	- le synoptique technique
+	- réalisation de PoCs
+	- choix d'un dispositif
 
 Cours 4 (salle crea) :
-- Communication Processing / Arduino
+- Réalisation du dispositif
+- Documentation
 
-Cours 5
-- PoCs
-- Prototype
+Cours 5 (salle crea) :
+- Réalisation du dispositif
+- Documentation
 
-Cours 6
-- Prototype
+Cours 6 (salle crea) :
+- Réalisation du dispositif
+- Documentation
+- Présentation
+
 
 ### Tableau compétence animal
 
-| Animal         | Particularité  | Organe/capeteur  | Possibilité  |
+| Animal         | Particularité  | Organe/capteur   | Possibilité  |
 | :-----------:  |:--------------:|:----------------:|:------------:|
 | Serpent        | —			  | —                | —            |
 | Araignée       | —		      | —                | —            |

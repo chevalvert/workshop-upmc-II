@@ -19,9 +19,42 @@ Les fonctions et bibliothèques sont écrites en langage C ou C++
 - *Les capteurs pour Arduino et Raspberry Pi* par Tero Karvinen , Kimmo Karvinen , Ville Valtokari
 
 
-## Références
+## Index
 
-### A - Structure d'un programme Arduino
+### 1 - Structure d'un programme Arduino
+
+```java
+// 1 - Entête du programme 
+// espace pour déclarer des librairies externes
+// #include <nomDeLaLibrairie>
+
+// définir des constantes 
+// const type nom = valeur;  ou  #define nom valeur;
+
+// déclarer des variables globales qui seront modifiées lors de l'éxécution du programme
+// type nom;
+
+// 2 - Fonction setup()
+void setup() {
+  // commandes exécutées une seule fois, au lancement du programme 
+}
+
+// 3 - Fonction loop()
+void loop() {
+  // commandes exécutées cycliquement 
+}
+```
+
+[→ exercice 0 : blink](/2-Arduino/ex00_blink)
+[→ exercice 1 : blink LED](/2-Arduino/ex01_blink_led)
+
+### 2 - Variables, `pinMode()` et `analogRead()`
+[→ exercice 2 : LED + potentiomètre](/2-Arduino/ex02_led_potentiometer)
+
+
+
+
+
 #### 1 - Formats de données
 #### 2 - Déclaration de variables
 #### 3 - Type de variables
@@ -88,7 +121,7 @@ Les fonctions et bibliothèques sont écrites en langage C ou C++
 - Outils de mesure de l'environnement
 - Autres outils de mesure
 
-### F - Actionneurs](#f---actionneurs)
+### F - Actionneurs]
 - Relais
 - Moteurs
 - Servomotor (servomoteur)
