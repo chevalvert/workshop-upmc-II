@@ -37,38 +37,42 @@ Quand on appuie sur le bouton poussoir, la broche sera connectée à GND, et ser
 Les boutons-poussoirs ont deux contacts qui sont connectés si vous appuyez sur le bouton et déconnectés si vous ne l'êtes pas.
 
 
-# Button state
+# Button state `digitalRead()`
 
-Since a pushbutton has only two states (pushed or not pushed), we've run them into digital inputs. To read an input, we'll use the `digitalRead()` function. This function takes one parameter, the pin number, and returns either `HIGH` (5V) or `LOW` (GND).
+Comme un bouton-poussoir n'a que deux états (poussé ou non poussé), nous les avons connectés à des entrées numériques et déclarés comme `INPUT`. 
 
-Remember that if the button is being pressed, it will be connected to GND. If the button is not being pressed, the pullup resistor will connect it to 5 Volts.
+Pour lire une entrée, nous utilisons la fonction `digitalRead ()`. Cette fonction prend un paramètre, le numéro de broche, et renvoie soit `HIGH` (5V) ou` LOW` (GND).
 
-*So the state will be LOW when it is being pressed, and HIGH when it is not being pressed.*
+Rappelez-vous que si le bouton est enfoncé, il sera connecté à GND. Si le bouton n'est pas enfoncé, la résistance pullup le connectera à 5 volts.
+**Ainsi, l’état sera LOW lorsqu’il est pressé et HIGH quand il n’est pas pressé.**
 
 
 # Structures de contrôle, opérateurs boléens
 
-In this example, the LED turns on only when one button is pressed.
-Let's translate that into computer code. The Arduino gives you special logic functions to deal with true/false logic:
+Dans cet exemple, le LED s'allume lorsqu'un bouton est enfoncé. Traduisons cela en code informatique. L'Arduino A des fonctions logiques spéciales pour gérer la logique vraie / fausse:
 
-`A == B` means "EQUIVALENT". This is true if both sides are the same.
-`A && B` means "AND". This is true if both sides are true.
-`A || B` means "OR". This is true if either side is true.
-`!A` means "NOT". This makes anything after it the opposite (true or false).
+## Les opérateurs boléens
 
-We can use these operators to translate the above sentences into logic statements (Remember that LOW means the button is being pressed)
+On peut utiliser les opérateurs `&&` et `||` dans des structures de contrôle, dans le but d'associer des conditions.
 
-"If either button is being pressed, light up the LED" becomes:
+`A == B` veux dire "EQUIVALENT". Cela est vrai si les deux côtés sont les mêmes
+`A && B` veux dire "AND". Cela est vrai si les deux côtés sont vrais.
+`A || B` veux dire "OR". Ceci est vrai si l'un des côtés est vrai.
+`!A` veux dire "NOT". This makes anything after it the opposite (true or false).
+
+
+Nous pouvons utiliser ces opérateurs pour traduire les phrases ci-dessus en instructions logiques (rappelez-vous que LOW signifie que le bouton est enfoncé)
+
+"Si l'un des boutons est enfoncé, le voyant s'allume" devient:
 ```java
  if ((button1State == LOW) && (button2State == HIGH)) // Only button1 is pushed, light the LED
  if ((button1State == HIGH) && (button2State == LOW)) // Only button2 is pushed, light the LED
 ```
 
-Combine these two with an OR (`||`) 
+Combinez les deux avec un OR (`||`) 
 
 ```java
 if ((button1State == LOW) && (button2State == HIGH)) || ((button1State == HIGH) && (button2State == LOW)) 
 ```
 
-As you can see, logic operators can be combined to make complex decisions!
-Don't forget that we use `=` when we're assigning a value, and use `==` when we're testing a value for equivalence.
+N'oubliez pas que nous utilisons `=` lorsque nous assignons une valeur et que nous utilisons `==` lorsque nous vérifions l'équivalence d'une valeur.
