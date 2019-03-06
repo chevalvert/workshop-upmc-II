@@ -6,6 +6,7 @@ Processing est est une bibliothèque Java et un environnement de développement 
 
 - [Site web du logiciel + ressources](https://processing.org/)  
 - [Plateforme d'échange de sketchs de la communauté](https://www.openprocessing.org/)
+- [**Documentation des fonctions**](https://processing.org/reference)  
 
 ## Objectif de l'initiation
 

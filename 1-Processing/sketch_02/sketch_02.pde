@@ -1,3 +1,4 @@
+// Dans tout notre programme, le nom "drawingColor" fera référence à la couleur associée
 color drawingColor = color(0);
 
 // Ce bloc est exécuté une seule fois au lancement du programme
@@ -8,13 +9,15 @@ void setup () {
   background(255);
 }
 
-
 // Ce bloc est exécuté en boucle, 60 fois par secondes
 void draw () {
   if (mousePressed == true) { // Si la souris est cliquée…
     stroke(drawingColor);     // …on dessine un trait de la couleur "drawingColor"…
     strokeWeight(10);         // …de 10px d'épaisseur
     line(pmouseX, pmouseY, mouseX, mouseY); // …de la position précédente de la souris, jusqu'à la position actuelle
+
+    // On dessine aussi le même trait en symétrie verticale
+    line(width - pmouseX, pmouseY, width - mouseX, mouseY);
   }
 }
 
