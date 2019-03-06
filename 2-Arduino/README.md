@@ -45,12 +45,20 @@ void loop() {
 }
 ```
 
-[→ exercice 0 : blink](/2-Arduino/ex00_blink)
-[→ exercice 1 : blink LED](/2-Arduino/ex01_blink_led)
+[→ exercice 0 : blink](/2-Arduino/ex00_blink)  
+[→ exercice 1 : blink LED](/2-Arduino/ex01_blink_LED)
 
 ### 2 - Variables, `pinMode()` et `analogRead()`
-[→ exercice 2 : LED + potentiomètre](/2-Arduino/ex02_led_potentiometer)
+[→ exercice 2 : LED + potentiomètre](/2-Arduino/ex02_LED_potentiometer)
 
+
+### 3 - Structures de contrôle
+- `if ...`
+- `if ... else ...`
+- `if ... else if ... else`
+- `switch`et `case` 
+
+[→ exercice 3 : LED + boutton pressoir](/2-Arduino/ex03_pushbuttons_LEDs)
 
 
 
