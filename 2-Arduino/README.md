@@ -32,11 +32,13 @@ Les fonctions et bibliothèques sont écrites en langage C ou C++
 - `if ...`
 - `if ... else ...`
 - `if ... else if ... else`
-- `switch`et `case`
+- `switch`et `case` 
+
 #### 8 - Les opérateurs booléans
 - `&&` and
 - `||` or
 - `!` different from
+
 #### 9 - Les boucles
 - `while`
 - `do`
@@ -52,44 +54,52 @@ Les fonctions et bibliothèques sont écrites en langage C ou C++
 - `*` multiplication
 - `/` division
 - `%` modulo
-  * [2 - Notation abrégée des opérations arithmétiques](#2---notation-abregee-des-operations-arithmetiques)
-  * [3 - Les fonctions mathématiques](#3---les-fonctions-mathematiques)
-        * [`abs()`](#abs)
-        * [`sqrt()`](#sqrt)
-        * [`pow()`](#pow)
-        * [`min()` et `max()`](#min-et-max)
-        * [`constrain()`](#constrain)
-        * [`map()`](#map)
-  * [4 - Les fonctions trigonométriques](#4---les-fonctions-trigonometriques)
-  * [5 - Le hasard](#5---le-hasard)
-- [C - La carte Arduino](#c---la-carte-arduino)
-  * [1 - Alimentation électrique](#1---alimentation-electrique)
-  * [2 - LEDs de contrôle](#2---leds-de-controle)
-  * [3 - Connecteurs - entrées analogiques](#3---connecteurs---entrees-analogiques)
-  * [4 - Connecteurs - Entrées / Sorties numériques](#4---connecteurs---entrees--sorties-numeriques)
-  * [5 - Les sorties électriques](#5---les-sorties-electriques)
-  * [6 - Alimenter la carte Arduino](#6---alimenter-la-carte-arduino)
-- [D - Interrupteurs mécaniques](#d---interrupteurs-mecaniques)
-- [E - Capteurs](#e---capteurs)
-    + [Accéléromètre](#accelerometre)
-    + [Gyroscope](#gyroscope)
-    + [Capteur de torsion / flex sensor](#capteur-de-torsion--flex-sensor)
-    + [Force sensitive sensor](#force-sensitive-sensor)
-    + [LDR (Light Dependent Resistor) ou cellule photoélectrique](#ldr-light-dependent-resistor-ou-cellule-photoelectrique)
-    + [Sonar](#sonar)
-    + [Capteurs biométriques](#capteurs-biometriques)
-    + [Outils de mesure de l'environnement](#outils-de-mesure-de-lenvironnement)
-    + [Autres outils de mesure](#autres-outils-de-mesure)
-- [F - Actionneurs](#f---actionneurs)
-    + [Relais](#relais)
-    + [Moteurs](#moteurs)
-      - [Servomotor (servomoteur)](#servomotor-servomoteur)
-      - [Stepper motor (Moteurs pas à pas)](#stepper-motor-moteurs-pas-a-pas)
-      - [DC motor (moteur à trois temps, moteur à courant continu ou moteur DC).](#dc-motor-moteur-a-trois-temps-moteur-a-courant-continu-ou-moteur-dc)
-      - [Solénoide](#solenoide)
-      - [Valves et pompes](#valves-et-pompes)
-      - [Shape memory alloy (fil à mémoire de forme)](#shape-memory-alloy-fil-a-memoire-de-forme)
-- [G - Communication entre Arduino et Processing](#g---communication-entre-arduino-et-processing)
+
+#### 2 - Notation abrégée des opérations arithmétiques
+#### 3 - Les fonctions mathématiques
+- `abs()`
+- `sqrt()`
+- `pow()`
+- `min()` et `max()`
+- `constrain()`
+- `map()`
+
+#### 4 - Les fonctions trigonométriques
+#### 5 - Le hasard
+
+### C - La carte Arduino
+#### 1 - Alimentation électrique
+#### 2 - LEDs de contrôle
+#### 3 - Connecteurs - entrées analogiques
+#### 4 - Connecteurs - Entrées / Sorties numériques
+#### 5 - Les sorties électriques
+#### 6 - Alimenter la carte Arduino
+
+### D - Interrupteurs mécaniques
+
+### E - Capteurs
+- Accéléromètre
+- Gyroscope
+- Capteur de torsion / flex sensor
+- Force sensitive sensor
+- LDR (Light Dependent Resistor) ou cellule photoélectrique
+- Sonar
+- Capteurs biométriques
+- Outils de mesure de l'environnement
+- Autres outils de mesure
+
+### F - Actionneurs](#f---actionneurs)
+- Relais
+- Moteurs
+- Servomotor (servomoteur)
+- Stepper motor (Moteurs pas à pas)
+- DC motor (moteur à trois temps, moteur à courant continu ou moteur DC)
+- Solénoide
+- Valves et pompes
+- Shape memory alloy (fil à mémoire de forme)
+
+### G - Communication entre Arduino et Processing
+- [SensorShield Library](https://github.com/MAKIO135/sensorShieldLib)
 
 
 ## License
