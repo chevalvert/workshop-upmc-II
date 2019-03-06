@@ -1,6 +1,6 @@
 ![ex02_led_potentiometer.png](ex02_led_potentiometer.png)
 
-# Descrpition du programme
+# Description du programme
 Mesurer la position d’un potentiomètre et l’utiliser pour contrôler le taux de clignotement d'une LED.
 
 # Matériel

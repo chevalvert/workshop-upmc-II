@@ -1,4 +1,4 @@
-# Descrpition du programme
+# Description du programme
 
 Programme pour faire clignoter le LED intégré dans l'Arduino, qui est rattaché à la broche digitale 13.
 
