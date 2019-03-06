@@ -148,20 +148,11 @@ Cours 6
 
 ## Qu'est-ce que Processing ?
 
-Processing est est une bibliothèque Java et un environnement de développement libre. L'outil créé par [Ben Fry](https://fathom.info/about/) et [Casey Reas](http://reas.com/) est un le logiciel de programmation dédié à la création plastique et graphique interactive. 
-
-- [Site web du logiciel + ressources](https://processing.org/)  
-- [Plateforme d'échange de sketchs de la communauté](https://www.openprocessing.org/)
+[→ Initiation à Processing](/1-Processing)
 
 ## Qu'est-ce qu'Arduino ?
-L’Arduino est une plateforme de prototypage électronique open-source, basée d’une part sur du matériel et d’autre part sur un ensemble de logiciels faciles à utiliser.
-La carte la plus utilisée est l’Arduino Uno. Il s’agit d’une carte équipée d’un micro-contrôleur de la famille AVR 8 bits : l’ATMega328.
 
-Une carte Arduino communique avec son environnement par l’intermédiaire de ses broches d’entrées/sorties. Sur ces broches, des capteurs, dispositifs permettant de transformer une information de l’environnement en signal électrique et des actionneurs, dispositifs permettant de transformer un signal électrique en action mécanique ou lumineuse, vont être connectés.
-
-L’Arduino étant un ordinateur spécialisé dans la gestion de capteurs et d’actionneurs, c’est un programme qui va décider de la manière donc les capteurs et les actionneurs sont utilisés. C'est de l’électronique programmable (à microcontrôleur).
-
-Les fonctions et bibliothèques sont écrites en langage C ou C++ 
+[→ Initiation à Arduino](/2-Arduino)
 
 ## License
 
