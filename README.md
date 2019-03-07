@@ -109,6 +109,7 @@ Cours 1 (salle informatique 435) :
 	- le synoptique technique
 
 Tableau de compétence animal
+
 | Animal         | Particularité  | Organe/capteur   | Possibilité  |
 | :-----------:  |:--------------:|:----------------:|:------------:|
 | Serpent        | —			  | —                | —            |
@@ -124,6 +125,7 @@ Cours 2 (salle micro 101) :
 - Complétion du tableau avec des solutions low tech
 
 Compléter le tableau de compétence animal avec deux colonnes dédiées aux capteurs :
+
 | Animal         | Particularité  | Organe/capteur   | Possibilité  | Capteur dans le marché  | Capteur conçu de façon low-tech  |
 | :-----------:  |:--------------:|:----------------:|:------------:|:-----------------------:|:--------------------------------:|
 
