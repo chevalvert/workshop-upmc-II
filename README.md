@@ -97,35 +97,6 @@ Il y a diverses modalités de stimulus :
 ![02-rapport-monde.png](overview/02-rapport-monde.png)
 *Diagrammes par Simon Renaud*
 
-### Exercices 
-
-1 / Compléter le tableau de compétence animal
-
-Initié avec Simon Renaud :
-
-| Animal         | Particularité  | Organe/capteur   | Possibilité  |
-| :-----------:  |:--------------:|:----------------:|:------------:|
-| Serpent        | —			  | —                | —            |
-| Araignée       | —		      | —                | —            |
-| Caméléon       | —		      | —                | —            |
-| Chauve-souris  | —		      | —                | —            |
-
-Complété avec deux colonnes dédiées aux capteurs :
-animal > mécanisme de perception > capteur disponible > capteur inventé avec "mécanisme low tech"
-
-| Animal         | Particularité  | Organe/capteur   | Possibilité  | Capteur dans le marché  | Capteur conçu de façon low-tech  |
-| :-----------:  |:--------------:|:----------------:|:------------:|:-----------------------:|:--------------------------------:|
-
-
-2 / Conception et réalisation du projet
-- PoCs (Proofs of Concept) de plusieurs dispositifs "prothèse de perception"
-- prototype final d'un dispositif
-- documentation
-- présentation
-
-Groupe
-› 3 étudiants
-
 ### Déroulé
 Cours 1 (salle informatique 435) : 
 - Présentation Chevalvert et projets (30min)
@@ -137,12 +108,25 @@ Cours 1 (salle informatique 435) :
 	- le descriptif du programme
 	- le synoptique technique
 
+Tableau de compétence animal
+| Animal         | Particularité  | Organe/capteur   | Possibilité  |
+| :-----------:  |:--------------:|:----------------:|:------------:|
+| Serpent        | —			  | —                | —            |
+| Araignée       | —		      | —                | —            |
+| Caméléon       | —		      | —                | —            |
+| Chauve-souris  | —		      | —                | —            |
+
 Cours 2 (salle micro 101) :
 - Initiation à Processing ?
 - Initiation à Arduino ?
 - Complétion du tableau avec les capteurs disponibles sur Adafruit/Sparkfun
 - Complétion du tableau avec les capteurs disponibles au fablab
 - Complétion du tableau avec des solutions low tech
+
+Compléter le tableau de compétence animal avec deux colonnes dédiées aux capteurs :
+| Animal         | Particularité  | Organe/capteur   | Possibilité  | Capteur dans le marché  | Capteur conçu de façon low-tech  |
+| :-----------:  |:--------------:|:----------------:|:------------:|:-----------------------:|:--------------------------------:|
+
 
 Cours 3 (salle 46-56-101 créa fablab) :
 - Initiation à Arduino ?
