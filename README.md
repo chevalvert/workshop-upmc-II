@@ -46,6 +46,24 @@ Tout au long du workshop vous devrez respecter une méthodologie de documentatio
     - le programme et le circuit nécessaire
     - la documentation photo et/ou vidéo  
 
+### Exemples de documentation
+
+Sur Twitter, beaucoup d'artistes, designer et développeurs créatifs documentent leurs projets de façon totalement décomplexée. 
+
+L'important n'est pas de montrer un projet fini avec une vidéo léchée, mais de documenter le _work in progress_ avec son lot d'erreurs et de bugs.
+
+Twitter devient un journal de bord.
+
+<details>
+  <summary>Exemples de journaux de bords Twitter</summary>
+  [![overview/tw00.png](overview/tw00.png)](https://twitter.com/lorenschmidt/status/1098594292573130758)
+  [![overview/tw01.png](overview/tw01.png)](https://twitter.com/ok_remi_ok/status/1100150310088134656)
+  [![overview/tw02.png](overview/tw02.png)](https://twitter.com/ok_remi_ok/status/1100150310088134656)
+  [![overview/tw04.png](overview/tw04.png)](https://twitter.com/lorenschmidt/status/1099043249254293505)
+  [![overview/tw05.png](overview/tw05.png)](https://twitter.com/quasimondo/status/1099344714518724608)
+  [![overview/tw06.png](overview/tw06.png)](https://twitter.com/inconvergent/status/1094188053940367360)
+</details>
+
 ## Sujet : Humanimal
 ### Être capteur
 
