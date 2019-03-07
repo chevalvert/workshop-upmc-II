@@ -54,17 +54,12 @@ L'important n'est pas de montrer un projet fini avec une vidéo léchée, mais d
 
 Twitter devient un journal de bord.
 
-<details>
-  <summary>Exemples de journaux de bords Twitter</summary>
-  <p>
-  [![overview/tw00.png](overview/tw00.png)](https://twitter.com/lorenschmidt/status/1098594292573130758)
-  [![overview/tw01.png](overview/tw01.png)](https://twitter.com/ok_remi_ok/status/1100150310088134656)
-  [![overview/tw02.png](overview/tw02.png)](https://twitter.com/ok_remi_ok/status/1100150310088134656)
-  [![overview/tw04.png](overview/tw04.png)](https://twitter.com/lorenschmidt/status/1099043249254293505)
-  [![overview/tw05.png](overview/tw05.png)](https://twitter.com/quasimondo/status/1099344714518724608)
-  [![overview/tw06.png](overview/tw06.png)](https://twitter.com/inconvergent/status/1094188053940367360)
-  </p>
-</details>
+[![overview/tw00.png](overview/tw00.png)](https://twitter.com/lorenschmidt/status/1098594292573130758)
+[![overview/tw01.png](overview/tw01.png)](https://twitter.com/ok_remi_ok/status/1100150310088134656)
+[![overview/tw02.png](overview/tw02.png)](https://twitter.com/ok_remi_ok/status/1100150310088134656)
+[![overview/tw04.png](overview/tw04.png)](https://twitter.com/lorenschmidt/status/1099043249254293505)
+[![overview/tw05.png](overview/tw05.png)](https://twitter.com/quasimondo/status/1099344714518724608)
+[![overview/tw06.png](overview/tw06.png)](https://twitter.com/inconvergent/status/1094188053940367360)
 
 ## Sujet : Humanimal
 ### Être capteur
