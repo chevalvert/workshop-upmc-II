@@ -59,13 +59,14 @@ Structures de contrôle :
 - `if ... else if ... else`
 - `switch`et `case` 
 
+[→ exercice 3 : LED + 1 boutton pressoir](/2-Arduino/ex03_pushbutton_LEDs)
+
 Opérateurs boléens :
 - `&&`  and
 - `||`  or 
 - `!`  different from
 
-[→ exercice 3 : LED + boutton pressoir](/2-Arduino/ex03_pushbuttons_LEDs)
-
+[→ exercice 4 : LED + 2 bouttons pressoirs](/2-Arduino/ex04_pushbuttons_LED)
 
 
 

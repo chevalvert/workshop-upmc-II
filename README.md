@@ -1,4 +1,4 @@
-# UE Outils de représentation et d'interaction : Initiation à Processing et initiation à Arduino
+# UE Outils de représentation et d'interaction : Initiation à Processing et à Arduino
 
 ## Studio Chevalvert
 
@@ -14,16 +14,16 @@ Nous réalisons aussi des dispositifs en utilisant le software de programmation 
 - [Ink under paper](https://chevalvert.fr/installation/ink-under-paper/)  
 Dans ce projet nous questionnons le lien entre la matière physique (le papier) et la matière numérique (l'encre digitale créée avec un algorithme qui simule un comportement liquide). 
 - [Mechanical Frames](https://chevalvert.fr/installation/mechanical-frames/)
-Une autre possibilité est de lier la génération graphique de Processing à des données physiques qui sont transmises au programme par la carte électronique ([Arduino](https://www.arduino.cc/)), reliée à son tous à des capteurs.  
+Une autre possibilité est de lier la génération graphique de Processing à des données physiques qui sont transmises au programme par la carte électronique ([Arduino](https://www.arduino.cc/), reliée à son tous à des capteurs.  
 
 
 ## Objectifs du workshop 
 
 6 séances de 4h
-- S'initier à Processing
-- S'initier à Arduino
+- S'initier à [Processing](https://processing.org/)
+- S'initier à [Arduino](https://www.arduino.cc/)
 - S'initier aux capteurs
-- Faire communiquer Processing et Arduino en utilisant la librairie SensorShield
+- Faire communiquer Processing et Arduino en utilisant la librairie [SensorShield](https://github.com/MAKIO135/sensorShieldLib)
 - Concevoir et prototyper un dispositif ou une expérience de captation/perception (par groupes de 3)
 - Présenter le projet lors de la dernière séance
 
@@ -37,7 +37,7 @@ Tout au long du workshop vous devrez respecter une méthodologie de documentatio
 	- le programme
 	- le schéma du circuit (s'il y en a)
 	- une photo du circuit et/ou une capture d'écran du résultat visuel du programme
-	- une vidéo du dispositif en action
+	- une vidéo/des photos du dispositif en action
 
 - Pour le projet final vous réaliserez :
 	- la note d’intention
@@ -67,13 +67,12 @@ Twitter devient un journal de bord.
 En collaboration avec Simon Renaud.
 
 #### Problématique
-**Agir & percevoir à la manière de...**
+"Agir & percevoir à la manière de..."
 
 
-#### Ressources présentées par Simon Renaud
+#### Sélection des contenus présentées par Simon Renaud
 
-**Notre corps, notre vision du monde.**
-
+##### Notre corps, notre vision du monde.
 Nous percevons le monde extérieur grâce à nos organes de sens.
 
 En permanence, nous analysons de manière plus ou moins consciente les informations dont nous disposons grâce à nos yeux, nos oreilles, notre langue, notre nez et notre peau. Bref, nos capteurs naturels.
@@ -86,62 +85,66 @@ Il y a diverses modalités de stimulus :
 - goût
 - odeurs
 
-**L'outil**
+##### L'outil
 «L’outil apparaît comme une véritable sécrétion du corps et du cerveau ; on peut donc appliquer à cet organe artificiel les normes des organes naturels.» Le Geste et la parole, André Leroi-Gourhan. 1964, vol. 1
 ![03-rapport-outils.png](overview/03-rapport-outils.png)
+*Diagramme par Simon Renaud*
 
-**Percevoir c'est agir**
+##### Percevoir c'est agir
 «On ne perçois jamais ce qui donne à percevoir. Ni sa rétine, ni ses mouvements oculaires, ni ses lunettes, etc.» Charles Lenay
 
 ![01-perception-action.png](overview/01-perception-action.png)
 ![02-rapport-monde.png](overview/02-rapport-monde.png)
+*Diagrammes par Simon Renaud*
 
-### Exercice 
+### Exercices 
 
-Tableau animal - mécanisme de perception - capteur - mécanisme low tech
-Projet : PoCs et prototype final + documentation
+1 / Compléter le tableau de compétence animal
 
-#### Exemples
-Voir comme un insecte, bouger comme une mouche, etc.
+Initié avec Simon Renaud :
 
-#### Objectif
-Collecter des textes et des références sur votre problématique
-Créer des maquettes pour rendre compte de cette perception
-Créer une expérience de perception à travers une/des prothèse/s
-Prototyper une/des prothèses/s
+| Animal         | Particularité  | Organe/capteur   | Possibilité  |
+| :-----------:  |:--------------:|:----------------:|:------------:|
+| Serpent        | —			  | —                | —            |
+| Araignée       | —		      | —                | —            |
+| Caméléon       | —		      | —                | —            |
+| Chauve-souris  | —		      | —                | —            |
 
-### Rendu
-Simon Renaud :
-- un exposé sur votre problématique (10 slides)
-- 2 affiches textes (2 A3)
-- conception d’une «prothèse»
+Complété avec deux colonnes dédiées aux capteurs :
+animal > mécanisme de perception > capteur disponible > capteur inventé avec "mécanisme low tech"
 
-Chevalvert :
-- prototypage d'une «prothèse»
-- documentation et présentation
+| Animal         | Particularité  | Organe/capteur   | Possibilité  | Capteur dans le marché  | Capteur conçu de façon low-tech  |
+| :-----------:  |:--------------:|:----------------:|:------------:|:-----------------------:|:--------------------------------:|
+
+
+2 / Conception et réalisation du projet
+- PoCs (Proofs of Concept) de plusieurs dispositifs "prothèse de perception"
+- prototype final d'un dispositif
+- documentation
+- présentation
 
 Groupe
 › 3 étudiants
 
 ### Déroulé
-Cours 1 (salle informatique) : 
+Cours 1 (salle informatique 435) : 
 - Présentation Chevalvert et projets (30min)
 - Initiation à Processing : outil de dessin (2h)
-- Présentation des projets des groupes (1h)
+- Présentation des projets inités par les groupes (1h)
 - Travailler sur le projet (30min)
 	- le tableau de compétence animal
 	- la note d’intention
 	- le descriptif du programme
 	- le synoptique technique
 
-Cours 2 (salle informatique) :
+Cours 2 (salle micro 101) :
 - Initiation à Processing ?
 - Initiation à Arduino ?
 - Complétion du tableau avec les capteurs disponibles sur Adafruit/Sparkfun
 - Complétion du tableau avec les capteurs disponibles au fablab
 - Complétion du tableau avec des solutions low tech
 
-Cours 3 (salle crea) :
+Cours 3 (salle 46-56-101 créa fablab) :
 - Initiation à Arduino ?
 - Communication Processing < > Arduino
 - Initiation aux capteurs
@@ -152,41 +155,18 @@ Cours 3 (salle crea) :
 	- réalisation de PoCs
 	- choix d'un dispositif
 
-Cours 4 (salle crea) :
+Cours 4 (salle 46-56-101 créa fablab) :
 - Réalisation du dispositif
 - Documentation
 
-Cours 5 (salle crea) :
+Cours 5 (salle 46-56-101 créa fablab) :
 - Réalisation du dispositif
 - Documentation
 
-Cours 6 (salle crea) :
+Cours 6 (salle 46-56-101 créa fablab) :
 - Réalisation du dispositif
 - Documentation
 - Présentation
-
-
-### Tableau compétence animal
-
-| Animal         | Particularité  | Organe/capteur   | Possibilité  |
-| :-----------:  |:--------------:|:----------------:|:------------:|
-| Serpent        | —			  | —                | —            |
-| Araignée       | —		      | —                | —            |
-| Caméléon       | —		      | —                | —            |
-| Chauve-souris  | —		      | —                | —            |
-
-
-1 — Animal
-(serpent, araignée, caméléon, chauve-souris, etc.)
-
-2 — Particularité
-(voir la nuit, voir à 290°, une toile, etc.)
-
-3 — Organe/capteur
-(moustaches, yeux, poils, etc.)
-
-4 — Possibilité
-(chasser, se déplacer, attraper, etc.)
 
 ## Qu'est-ce que Processing ?
 
