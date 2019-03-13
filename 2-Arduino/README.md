@@ -25,14 +25,50 @@ Le langage informatique Arduino est inspiré des langages C et C++. Ses commande
 ## Ressources et bibliographie 
 - [Site web du logiciel + ressources](https://www.arduino.cc/)  
 - [Tutoriels](https://www.arduino.cc/en/Tutorial/HomePage)
+- [Tutoriels Sparkfun](https://learn.sparkfun.com/)
 - *Projets créatifs avec Arduino* par B. Affagard, J.-M. Guéridan, J.-N. Lafargue
 - *Les capteurs pour Arduino et Raspberry Pi* par Tero Karvinen , Kimmo Karvinen , Ville Valtokari
 - *[Sparkfun Inventor's Kit pour Arduino](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v40)*
 
 
-## Index
+## 1 - Arduino IDE et hardware
 
-### 1 - Structure d'un programme Arduino
+### Arduino IDE
+
+![overview/01-arduino-IDE.png](overview/01-arduino-IDE.png)
+
+1 - Verify: Compile et valide le code. Signale les erreurs de syntaxe (comme des `;` ou des `()` manquants  
+2 - Upload: Envoie votre code au board Arduino. Lorsque vous cliquez dessus, les voyants de votre Arduino devraient clignoter rapidement  
+3 - New: Ce bouton ouvre une nouvelle fenêtre pour éditer du code  
+4 - Open: Ce bouton vous permet d’ouvrir un sketch.ino existant  
+5 - Save: Ceci enregistre le sketch.ino actuellement actif  
+6 - Serial Monitor: Ouvre une fenêtre qui affiche toutes les informations serial transmises par la carte Arduino  
+7 - Sketch Name: Nom du sketch sur lequel vous travaillez actuellement  
+8 - Code Area: Zone pour écrire le code de votre programme  
+9 - Message Area: C'est ici qu'Arduino IDE vous indique s'il y a des erreurs dans votre code  
+10 - Text Console: La console texte affiche des messages d'erreur complets  
+11 - Board and Serial Port: Vous montre la carte et le port série choisis
+
+### Arduino board
+
+![overview/02-arduino-board.png](overview/02-arduino-board.png)
+
+1 - Power in (barrel jack): peut-être utilisé avec une alimentation 9V ou 12V
+2 - Power in (USB port): fournit de l'énergie et communique avec votre carte lorsqu'il est branché sur votre ordinateur via USB
+3 - LED RX (Receiving): clignotte quand Arduino est en train de recevoir des données (comme lors de la programmation)
+4 - LED TX (Transmitting): indique la transmission de données par Arduino (comme lors de l'exécution d'un programme)
+5 - LED (Pin 13 Trubleshooting): cette led est liée à votre programme pour montrer s'il est en cours d'exécution
+6 - Pins (ARef, Ground, Digital pins, Rx, Tx): différentes broches peuvant être utilisées pour les entrées, les sorties, l'alimentation et la terre
+7 - LED: indique si Arduino est ON
+8 - Reset button: c'est un moyen de réinitialiser manuellement votre Arduino, et de faire redémarrer votre code
+9 - ICSP Pins (uploading code without Bootloader): this is for "in-circuit serial programming" used if you want to bypass the boot loader
+10 - Pins (Analog in, Power In, Ground, Power out, Reset):  différentes broches peuvant être utilisées pour les entrées, l'alimentation et la terre
+
+### Breadboard
+![overview/03-breadboard.jpg](overview/03-breadboard.jpg)
+
+
+### 2 - Structure d'un programme Arduino
 
 ```java
 // 1 - Entête du programme 
@@ -59,11 +95,11 @@ void loop() {
 [→ exercice 0 : blink](/2-Arduino/ex00_blink)  
 [→ exercice 1 : blink LED](/2-Arduino/ex01_blink_LED)
 
-### 2 - Variables, `pinMode()` et `analogRead()`
+### 3 - Variables, `pinMode()` et `analogRead()`
 [→ exercice 2 : LED + potentiomètre](/2-Arduino/ex02_LED_potentiometer)
 
 
-### 3 - Structures de contrôle, opérateurs boléens et `digitalRead()`
+### 4 - Structures de contrôle, opérateurs boléens et `digitalRead()`
 Structures de contrôle :
 - `if ...`
 - `if ... else ...`
@@ -79,86 +115,6 @@ Opérateurs boléens :
 
 [→ exercice 4 : LED + 2 bouttons pressoirs](/2-Arduino/ex04_pushbuttons_LED)
 
-
-### A - Structure d'un programme
-#### 1 - Formats de données
-#### 2 - Déclaration de variables
-#### 3 - Type de variables
-#### 4 - Conversion
-#### 5 - Tableaux
-#### 6 - Chaînes de caractère
-#### 7 - Structures de contrôle
-- `if ...`
-- `if ... else ...`
-- `if ... else if ... else`
-- `switch`et `case` 
-
-#### 8 - Les opérateurs booléans
-- `&&` and
-- `||` or
-- `!` different from
-
-#### 9 - Les boucles
-- `while`
-- `do`
-- `break`
-- `for`
-- `continue`
-- Fonction + Return
-
-### B - Mathématiques
-#### 1 - Les opérateurs arithmétiques
-- `+` addition
-- `—` soustraction
-- `*` multiplication
-- `/` division
-- `%` modulo
-
-#### 2 - Notation abrégée des opérations arithmétiques
-#### 3 - Les fonctions mathématiques
-- `abs()`
-- `sqrt()`
-- `pow()`
-- `min()` et `max()`
-- `constrain()`
-- `map()`
-
-#### 4 - Les fonctions trigonométriques
-#### 5 - Le hasard
-
-### C - La carte Arduino
-#### 1 - Alimentation électrique
-#### 2 - LEDs de contrôle
-#### 3 - Connecteurs - entrées analogiques
-#### 4 - Connecteurs - Entrées / Sorties numériques
-#### 5 - Les sorties électriques
-#### 6 - Alimenter la carte Arduino
-
-### D - Interrupteurs mécaniques
-
-### E - Capteurs
-- Accéléromètre
-- Gyroscope
-- Capteur de torsion / flex sensor
-- Force sensitive sensor
-- LDR (Light Dependent Resistor) ou cellule photoélectrique
-- Sonar
-- Capteurs biométriques
-- Outils de mesure de l'environnement
-- Autres outils de mesure
-
-### F - Actionneurs
-- Relais
-- Moteurs
-- Servomotor (servomoteur)
-- Stepper motor (Moteurs pas à pas)
-- DC motor (moteur à trois temps, moteur à courant continu ou moteur DC)
-- Solénoide
-- Valves et pompes
-- Shape memory alloy (fil à mémoire de forme)
-
-### G - Communication entre Arduino et Processing
-- [SensorShield Library](https://github.com/MAKIO135/sensorShieldLib)
 
 
 ## License

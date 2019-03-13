@@ -1,11 +1,11 @@
 ![bouton-connexions.jpg](bouton-connexions.jpg)
 ![ex03_pushbutton_LED.png](ex03_pushbutton_LED.png)
+![ex03_pushbutton_LED.gif](ex03_pushbutton_LED.gif)
 
 # Description du programme
 Utiliser un bouton-pressoir pour créer un signal d'entrée `digital input` pour allumer et éteindre le LED.
 
 Connecter un côté du bouton-poussoir à GND et l’autre côté à une broche numérique. 
-Quand on appuie sur le bouton poussoir, la broche sera connectée à GND, et sera donc lue comme "LOW" par l'Arduino.
 
 
 # Matériel
@@ -28,10 +28,10 @@ Quand on appuie sur le bouton poussoir, la broche sera connectée à GND, et ser
     Rappelez-vous que, contrairement aux entrées analogiques, les entrées numériques ne sont que HIGH ou LOW.
 
 # Déroulé des actions programmées
-  - 
-  - 
-  - 
-  - 
+  - Quand on appuie sur le bouton poussoir :
+      - la broche du bouton sera connectée à GND
+      - la broche `digital pin 2` sera lue comme "LOW" par l'Arduino
+      - la LED s'étteint
 
 # Bouton-pressoir
 

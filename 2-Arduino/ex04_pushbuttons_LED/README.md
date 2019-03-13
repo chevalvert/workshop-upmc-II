@@ -1,5 +1,6 @@
 ![bouton-connexions.jpg](bouton-connexions.jpg)
-![ex03_pushbutton_LED.png](ex03_pushbutton_LED.png)
+![ex04_pushbuttons_LED.png](ex04_pushbuttons_LED.png)
+![ex04_pushbuttons_LED.gif](ex04_pushbuttons_LED.gif)
 
 # Description du programme
 Utiliser un bouton-pressoir pour créer un signal d'entrée `digital input` pour allumer et éteindre le LED.

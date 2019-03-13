@@ -1,5 +1,6 @@
 ![ex01_blink_LED.png](ex01_blink_LED.png)
 ![ex01_blink_LED_pic01.jpg](ex01_blink_LED_pic01.jpg)
+![ex01_blink_LED.gif](ex01_blink_LED.gif)
 
 # Description du programme
 Programme pour faire clignoter le LED connecté à la broche digitale 13.
