@@ -99,20 +99,18 @@ Il y a diverses modalités de stimulus :
 
 ### Déroulé
 Cours 1 (salle informatique 435) : 
-- Présentation du studio Chevalvert et projets (30min)
+- Présentation du studio Chevalvert et de quelques uns de ses projets (30min)
 - Initiation à Processing : outil de dessin (2h30)
-- Présentation des projets inités par les groupes (1h)
+- Présentation des projets initiés par les groupes (1h)
 
 Cours 2 (salle micro 101) :
 - Suite de l'initiation à Processing
 - Travail par groupes sur le projet
-	- esquisses interactives sur Processing
 	- note d’intention
-	- descriptif des programmes de prototypage
-	- écriture des programmes Processing
-	- synoptique technique
+	- descriptif des programmes de prototypage à réaliser 
+	- écriture des programmes de prototypage sur Processing
 	- Si nous avons le temps
-		- présentation des catalogues de capteurs Sparkfun et Adafruit
+		- présentation des catalogues de capteurs [Sparkfun](https://www.sparkfun.com/categories/23) et [Adafruit](https://www.adafruit.com/?q=sensors)
 		- complétion du tableau de compétence de captation animal avec une colonne dédiée aux capteurs disponibles sur le catalogue
 
 
@@ -121,6 +119,8 @@ Tableau de compétence de captation animal
 | Animal         | Particularité  | Organe/capteur   | Possibilité  | Capteur dans le marché  | Capteur disponible dans le fablab  | Système de captation conçu de façon low-tech  |
 | :-----------:  |:--------------:|:----------------:|:------------:|:-----------------------:|:----------------------------------:|:---------------------------------------------:|
 | —			     | —			  | —			     | —		    | —			     		  | —			     	      	       | —			       			  	      	       |	
+| 			     | —			  | —			     | —		    | —			     		  | —			     	      	       | —			       			  	      	       |
+| 			     | —			  | —			     | —		    | —			     		  | —			     	      	       | —			       			  	      	       |
 
 
 
