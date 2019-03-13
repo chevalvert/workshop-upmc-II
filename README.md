@@ -87,59 +87,54 @@ Il y a diverses modalités de stimulus :
 
 ##### L'outil
 «L’outil apparaît comme une véritable sécrétion du corps et du cerveau ; on peut donc appliquer à cet organe artificiel les normes des organes naturels.» Le Geste et la parole, André Leroi-Gourhan. 1964, vol. 1
-![03-rapport-outils.png](overview/03-rapport-outils.png)
+![03-rapport-outils.png](overview/03-rapport-outils.png)  
 *Diagramme par Simon Renaud*
 
 ##### Percevoir c'est agir
 «On ne perçois jamais ce qui donne à percevoir. Ni sa rétine, ni ses mouvements oculaires, ni ses lunettes, etc.» Charles Lenay
 
 ![01-perception-action.png](overview/01-perception-action.png)
-![02-rapport-monde.png](overview/02-rapport-monde.png)
+![02-rapport-monde.png](overview/02-rapport-monde.png)  
 *Diagrammes par Simon Renaud*
 
 ### Déroulé
 Cours 1 (salle informatique 435) : 
-- Présentation Chevalvert et projets (30min)
-- Initiation à Processing : outil de dessin (2h)
+- Présentation du studio Chevalvert et projets (30min)
+- Initiation à Processing : outil de dessin (2h30)
 - Présentation des projets inités par les groupes (1h)
-- Travailler sur le projet (30min)
-	- le tableau de compétence animal
-	- la note d’intention
-	- le descriptif du programme
-	- le synoptique technique
-
-Tableau de compétence animal
-
-| Animal         | Particularité  | Organe/capteur   | Possibilité  |
-| :-----------:  |:--------------:|:----------------:|:------------:|
-| Serpent        | —			  | —                | —            |
-| Araignée       | —		      | —                | —            |
-| Caméléon       | —		      | —                | —            |
-| Chauve-souris  | —		      | —                | —            |
 
 Cours 2 (salle micro 101) :
-- Initiation à Processing ?
-- Initiation à Arduino ?
-- Complétion du tableau avec les capteurs disponibles sur Adafruit/Sparkfun
-- Complétion du tableau avec les capteurs disponibles au fablab
-- Complétion du tableau avec des solutions low tech
+- Suite de l'initiation à Processing
+- Travail par groupes sur le projet
+	- esquisses interactives sur Processing
+	- note d’intention
+	- descriptif des programmes de prototypage
+	- écriture des programmes Processing
+	- synoptique technique
+	- Si nous avons le temps
+		- présentation des catalogues de capteurs Sparkfun et Adafruit
+		- complétion du tableau de compétence de captation animal avec une colonne dédiée aux capteurs disponibles sur le catalogue
 
-Compléter le tableau de compétence animal avec deux colonnes dédiées aux capteurs :
 
-| Animal         | Particularité  | Organe/capteur   | Possibilité  | Capteur dans le marché  | Capteur conçu de façon low-tech  |
-| :-----------:  |:--------------:|:----------------:|:------------:|:-----------------------:|:--------------------------------:|
+Tableau de compétence de captation animal
+
+| Animal         | Particularité  | Organe/capteur   | Possibilité  | Capteur dans le marché  | Capteur disponible dans le fablab  | Système de captation conçu de façon low-tech  |
+| :-----------:  |:--------------:|:----------------:|:------------:|:-----------------------:|:----------------------------------:|:---------------------------------------------:|
+| —			     | —			  | —			     | —		    | —			     		  | —			     	      	       | —			       			  	      	       |	
+
 
 
 Cours 3 (salle 46-56-101 créa fablab) :
-- Initiation à Arduino ?
+- Initiation à Arduino 
 - Communication Processing < > Arduino
 - Initiation aux capteurs
+- Complétion du tableau avec les capteurs disponibles au fablab
+- Complétion du tableau avec des solutions low tech
 - Conception des dispositifs : 
-	- la note d’intention
-	- le descriptif du programme
-	- le synoptique technique
+	- le descriptif des programmes
 	- réalisation de PoCs
 	- choix d'un dispositif
+	- synoptique technique du dispositif choisi
 
 Cours 4 (salle 46-56-101 créa fablab) :
 - Réalisation du dispositif

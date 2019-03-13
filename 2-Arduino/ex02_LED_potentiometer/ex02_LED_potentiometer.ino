@@ -1,14 +1,14 @@
 /*  
   Programme pour mesurer la position d’un potentiomètre 
-  et l’utiliser pour contrôler le taux de clignotement d'une LED.
+  et l’utiliser pour contrôler le rythme de clignotement d'une LED.
 
   Matériel :
     - Arduino Uno
     - LED
-    - Résistance 220 ohm
+    - Résistance 330 ohm
     - Potentiometer
     - Breadboard
-    - Câbles
+    - Câbles  
 
   Connectique :
     - LED + connecté au pin 13
@@ -48,3 +48,4 @@ void loop(){
   delay(potValue);                  // temps de pause définie par la position du potentiomètre
   digitalWrite(ledPin, LOW);        // éteint le LED off (tension LOW)
   delay(potValue);                  // temps de pause définie par la position du potentiomètre
+}

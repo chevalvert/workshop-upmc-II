@@ -1,4 +1,5 @@
 ![ex01_blink_LED.png](ex01_blink_LED.png)
+![ex01_blink_LED_pic01.jpg](ex01_blink_LED_pic01.jpg)
 
 # Description du programme
 Programme pour faire clignoter le LED connecté à la broche digitale 13.
@@ -6,14 +7,14 @@ Programme pour faire clignoter le LED connecté à la broche digitale 13.
 # Matériel
   - Arduino Uno
   - LED
-  - Résistance 220 ohm
+  - Résistance 330 ohm
   - Breadboard
   - Câbles
 
 # Connectique
   - LED + connecté au pin 13
   - LED — connecté à la résistance 220 ohm
-  - Résistance 220 ohm connecté au GND
+  - Résistance 330 ohm connecté au GND
 
 # Déroulé des actions programmées
   - allume le LED pendant une seconde

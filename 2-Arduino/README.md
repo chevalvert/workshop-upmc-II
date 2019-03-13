@@ -2,21 +2,32 @@
 
 ## Qu'est-ce qu'Arduino ?
 
-Arduino est une plateforme de prototypage électronique open-source, basée d’une part sur du matériel et d’autre part sur un ensemble de logiciels faciles à utiliser.
-La carte la plus utilisée est l’Arduino Uno. Il s’agit d’une carte équipée d’un micro-contrôleur de la famille AVR 8 bits : l’ATMega328.
+Arduino est une plateforme de prototypage électronique open-source, basée d’une part sur du matériel ([Arduino microcontroller](http://www.arduino.com)), sur du logiciel ([Arduino IDE](http://arduino.cc/en/Main/Software)) et sur un langage de programmation (les fonctions et bibliothèques sont écrites en langage C ou C++). 
 
-Une carte Arduino communique avec son environnement par l’intermédiaire de ses broches d’entrées/sorties. Sur ces broches, des capteurs, dispositifs permettant de transformer une information de l’environnement en signal électrique et des actionneurs, dispositifs permettant de transformer un signal électrique en action mécanique ou lumineuse, vont être connectés.
+Une carte Arduino communique avec son environnement par l’intermédiaire de ses broches d’entrée et de sortie. 
 
-L’Arduino étant un ordinateur spécialisé dans la gestion de capteurs et d’actionneurs, c’est un programme qui va décider de la manière donc les capteurs et les actionneurs sont utilisés. C'est de l’électronique programmable (à microcontrôleur).
+Sur les broches `input`, nous pouvons connecter des capteurs (des dispositifs permettant de transformer une information de l’environnement en signal électrique) et sur les broches `output`nous pouvons connecter des actionneurs (dispositifs permettant de transformer un signal électrique en action mécanique ou lumineuse).
 
-Les fonctions et bibliothèques sont écrites en langage C ou C++ 
+`Recevoir des informations envoyées par des capteurs → les traiter avec le programme → envoyer des informations pour commander des actionneurs`
 
+### La plateforme matérielle
+Les cartes Arduino sont des circuits électroniques composés de connecteurs reliés à un micro-contrôleur programmable. Les cartes Arduino peuvent être alimentés par le port USB de l'ordinateur (elles fonctionnent en interne à 3,3V ou à 5V) mais aussi par une alimentation extérieure variant entre 7 et 12V. Il ne faut pas excéder ces valeurs, sinon la carte et les composants branchés pourraient être endommagés (et en plus cela peut entrainer un risque pour l'utilisateur). 
+
+### L'environnement logiciel
+L'environnement de programmation pour Arduino ([Arduino IDE](http://arduino.cc/en/Main/Software)) est un logiciel gratuit open-source.
+- il permet d'écrire des programmes en langage Arduino et de tester leur validité
+- il permet de les compiler et de les "téléverser" vers la carte Arduino
+- il permet de communiquer avec le microcontroleur et de recevoir ses messages
+
+### Le langage
+Le langage informatique Arduino est inspiré des langages C et C++. Ses commandes sont adaptées aux besoins de la carte, surtout celui qui consiste à communiquer avec ses différents connecteurs.
+
+## Ressources et bibliographie 
 - [Site web du logiciel + ressources](https://www.arduino.cc/)  
 - [Tutoriels](https://www.arduino.cc/en/Tutorial/HomePage)
-
-## Bibliographie 
 - *Projets créatifs avec Arduino* par B. Affagard, J.-M. Guéridan, J.-N. Lafargue
 - *Les capteurs pour Arduino et Raspberry Pi* par Tero Karvinen , Kimmo Karvinen , Ville Valtokari
+- *[Sparkfun Inventor's Kit pour Arduino](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v40)*
 
 
 ## Index
@@ -59,7 +70,7 @@ Structures de contrôle :
 - `if ... else if ... else`
 - `switch`et `case` 
 
-[→ exercice 3 : LED + 1 boutton pressoir](/2-Arduino/ex03_pushbutton_LEDs)
+[→ exercice 3 : LED + 1 boutton pressoir](/2-Arduino/ex03_pushbutton_LED)
 
 Opérateurs boléens :
 - `&&`  and
@@ -69,7 +80,7 @@ Opérateurs boléens :
 [→ exercice 4 : LED + 2 bouttons pressoirs](/2-Arduino/ex04_pushbuttons_LED)
 
 
-
+### A - Structure d'un programme
 #### 1 - Formats de données
 #### 2 - Déclaration de variables
 #### 3 - Type de variables
@@ -136,7 +147,7 @@ Opérateurs boléens :
 - Outils de mesure de l'environnement
 - Autres outils de mesure
 
-### F - Actionneurs]
+### F - Actionneurs
 - Relais
 - Moteurs
 - Servomotor (servomoteur)

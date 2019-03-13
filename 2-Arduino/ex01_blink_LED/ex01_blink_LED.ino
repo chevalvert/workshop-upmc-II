@@ -4,14 +4,14 @@ Programme pour faire clignoter le LED connecté à la broche digitale 13.
   Matériel :
     - Arduino Uno
     - LED
-    - Résistance 220 ohm
+    - Résistance 330 ohm
     - Breadboard
     - Câbles
 
   Connectique :
     - LED + connecté au pin 13
     - LED — connecté à la résistance 220 ohm
-    - Résistance 220 ohm connecté au GND
+    - Résistance 330 ohm connecté au GND
 */
 
 // 1 - Entête du programme
@@ -27,7 +27,7 @@ Programme pour faire clignoter le LED connecté à la broche digitale 13.
 // 2 - Fonction setup()
 void setup() {
   // commandes exécutées une seule fois, au lancement du programme 
-  pinMode(13, OUTPUT);
+  pinMode(13, OUTPUT);      // pour utiliser la broche 13 pour allumer une LED il faut la configurer comme sortie
 }
 
 // 3 - Fonction loop()

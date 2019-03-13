@@ -6,7 +6,7 @@ Mesurer la position d’un potentiomètre et l’utiliser pour contrôler le ryt
 # Matériel
   - Arduino Uno
   - LED
-  - Résistance 220 ohm
+  - Résistance 330 ohm
   - Potentiomètre
   - Breadboard
   - Câbles
@@ -14,7 +14,7 @@ Mesurer la position d’un potentiomètre et l’utiliser pour contrôler le ryt
 # Connectique
   - LED + connecté au pin 13
   - LED — connecté à la résistance 220 ohm
-  - Résistance 220 ohm connectée au GND 
+  - Résistance 330 ohm connectée au GND 
   - Potentiomètre broche ext 1 connectée au 5V
   - Potentiomètre broche ext 2 connectée au GND
   - Potentiomètre broche centrale connectée au pin ANALOG IN A0
@@ -27,7 +27,7 @@ Mesurer la position d’un potentiomètre et l’utiliser pour contrôler le ryt
   - temps d'extinction défini par la position du potentiomètre
 
 # Qu'est-ce qu'un potentiomètre ?
-Un potentiomètre, ou "pot" en abrégé, est un bouton de commande. Un potentiomètre change de résistance en tournant. En l’utilisant comme "diviseur de tension", l’Arduino peut détecter la position du bouton et utiliser cette valeur pour contrôler ce que vous voudrez (comme la fréquence de clignotement d’un LED dans notre exemple).
+Un potentiomètre, ou "pot" en abrégé, est un bouton de commande. Un potentiomètre change de résistance en tournant. En l’utilisant comme "diviseur de tension", l’Arduino peut détecter la position du bouton et utiliser cette valeur pour contrôler ce que vous voudrez (comme le rythme de clignotement d’un LED dans notre exemple).
 
 Les potentiomètres ont trois broches. Lorsque nous l'utilisons comme diviseur de tension, nous connectons les broches extérieures à l'alimentation et à la terre. La broche du milieu sera le signal (une tension qui varie de 0 à 5 volts en fonction de la position du bouton).
 

@@ -21,7 +21,7 @@
 // 2 - Fonction setup()
 void setup() {
   // commandes exécutées une seule fois, au lancement du programme
-  // initialise le pint digital 13 comme output
+  // initialise le pin digital 13 comme une sortie
   pinMode(13, OUTPUT);
 }
 
