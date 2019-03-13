@@ -1,5 +1,5 @@
-![ex02_led_potentiometer.png](ex02_led_potentiometer.png)
-![ex02_led_potentiometer.gif](ex02_led_potentiometer.gif)
+![ex02_LED_potentiometer.png](ex02_LED_potentiometer.png)
+![ex02_LED_potentiometer.gif](ex02_LED_potentiometer.gif)
 
 # Description du programme
 Mesurer la position d’un potentiomètre et l’utiliser pour contrôler le rythme de clignotement d'une LED.
