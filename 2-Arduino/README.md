@@ -106,7 +106,7 @@ Configure la broche pour qu'elle se comporte comme une entrée ou une sortie.
 [→ exercice 1 : blink LED](/2-Arduino/ex01_blink_LED)
 
 
-### 3 - Variables, `analogRead()` et `println()`
+### 3 - Variables, `analogRead()`, `println()`, `analogWrite()`
 
 [Variable](https://www.arduino.cc/en/Reference/VariableDeclaration)  
 Une variable est un moyen de nommer et de stocker une valeur pour une utilisation ultérieure par le programme (par exemple des données provenant d'un capteur ou une valeur intermédiaire utilisée dans un calcul de mapping).
@@ -117,6 +117,10 @@ Lit la valeur de la broche analogique et mappe sa tension d'entrée (comprise en
 [`println()`](https://www.arduino.cc/en/Serial/Println)
 
 [→ exercice 2 : LED + potentiomètre](/2-Arduino/ex02_LED_potentiometer)
+
+[`analogWrite()`](https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/)
+Écris une valeur analogique (avec une [onde PWM](https://www.arduino.cc/en/Tutorial/PWM)) sur une broche. La fonction peut être utilisée pour allumer une LED à différentes intensités ou pour faire bouger un moteur à différentes vitesses.
+[→ exercice 2 bis : LED + potentiomètre](/2-Arduino/ex02_LED_potentiometer_dimmer)
 
 
 ### 4 - `digitalRead()`, structures de contrôle, opérateurs boléens
