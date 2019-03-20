@@ -95,7 +95,23 @@ void loop() {
 [→ exercice 0 : blink](/2-Arduino/ex00_blink)  
 [→ exercice 1 : blink LED](/2-Arduino/ex01_blink_LED)
 
+[`digitalWrite`](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/)
+Écrit une valeur HIGH ou LOW sur une broche numérique.
+
 ### 3 - Variables, `pinMode()` et `analogRead()`
+
+[Variable](https://www.arduino.cc/en/Reference/VariableDeclaration)
+Une variable est un moyen de nommer et de stocker une valeur pour une utilisation ultérieure par le programme (par exemple des données provenant d'un capteur ou une valeur intermédiaire utilisée dans un calcul de mapping).
+
+[`pinMode()`](https://www.arduino.cc/reference/en/language/functions/digital-io/pinmode/)
+Configure la broche pour qu'elle se comporte comme une entrée ou une sortie.
+
+[`analogRead()`](https://www.arduino.cc/en/Reference/AnalogRead?setlang=en)
+Lit la valeur de la broche analogique et mappe sa tension d'entrée (comprise entre 0 et 5 volts) en valeurs entières (comprises entre 0 et 1023).
+
+[Digital pins](https://www.arduino.cc/en/Tutorial/DigitalPins)
+
+
 [→ exercice 2 : LED + potentiomètre](/2-Arduino/ex02_LED_potentiometer)
 
 
