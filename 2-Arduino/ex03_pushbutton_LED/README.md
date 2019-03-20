@@ -28,12 +28,16 @@ Connecter un côté du bouton-poussoir à GND et l’autre côté à une broche 
     Rappelez-vous que, contrairement aux entrées analogiques, les entrées numériques ne sont que HIGH ou LOW.
 
 # Déroulé des actions programmées
-  - Quand on appuie sur le bouton poussoir :
-      - la broche du bouton sera connectée à GND
-      - la broche `digital pin 2` sera lue comme "LOW" par l'Arduino
-      - la LED s'étteint
+  - Quand on n'appuie pas sur le bouton poussoir :
+      - la broche `digital pin 2` est lue comme `HIGH` par l'Arduino
+      - le LED est allumée
 
-# Bouton-pressoir
+  - Quand on appuie sur le bouton poussoir :
+      - la broche du bouton se connecte à GND
+      - la broche `digital pin 2` est lue comme `LOW` par l'Arduino
+      - le LED s'étteint
+
+# Bouton-poussoir
 
 Les boutons-poussoirs ont deux broches qui se connectent lorsque vous appuyez sur le bouton.
 
@@ -43,6 +47,7 @@ Les boutons-poussoirs ont deux broches qui se connectent lorsque vous appuyez su
 Comme un bouton-poussoir n'a que deux états (poussé ou non poussé), il faut le connecter sur une broche `digital` que nous allons déclarér comme `INPUT`. 
 
 Pour lire cette entrée, nous utilisons la fonction `digitalRead ()`. Cette fonction prend un paramètre (le numéro de broche), et renvoie soit `HIGH` (5V) soit `LOW` (GND).
+
 Si le bouton est enfoncé, il sera connecté à GND. Si le bouton n'est pas enfoncé, la résistance pullup le connectera à 5 volts.
 **Ainsi, l’état de `digital pin 2` sera `LOW` lorsque le bouton sera appuyé et `HIGH` quand il ne sera pas appuyé.**
 

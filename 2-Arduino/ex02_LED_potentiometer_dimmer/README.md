@@ -21,11 +21,9 @@ Mesurer la position d’un potentiomètre et l’utiliser pour contrôler le bri
   - Potentiomètre broche centrale connectée au pin ANALOG IN A0
 
 # Déroulé des actions programmées
-  - lis la position du potentiomètre
-  - affiche la valeur du potentiomètre dans le serial monitor
-  - mappe la valeur analogique (0-1023) en valeur PWM(0-255)
-  - allume le LED
-
+  - lis la position du potentiomètre, analogique (0-1023)
+  - transforme la valeur analogique (0-1023) en valeur PWM(0-255) et l'écris sur la broche du LED
+  - affiche la valeur dans le serial monitor
 
 # analogWrite()
 Écris une valeur analogique (onde PWM) sur une `~ broche`. La fonction peut être utilisée pour allumer une LED à différentes intensités ou pour faire bouger un moteur à différentes vitesses.

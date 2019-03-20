@@ -1,5 +1,5 @@
 /*
-  Utiliser un bouton-pressoir pour créer un signal d'entrée `digital input` 
+  Utiliser un bouton-pressoir pour contrôler un signal d'entrée `digital input` 
   pour allumer et éteindre le LED.
 
   Connecter un côté du bouton-poussoir à GND et l’autre côté à une broche numérique. 
@@ -26,10 +26,10 @@ void setup() {
 void loop() {
   button1State = digitalRead(button1Pin);    // button1State va lire la valeur venant du button1Pin, qui sera HIGH ou LOW en fonction de l'état du bouton-pressoir
   
-  if (button1State == HIGH){     // si l'état du bouton-pressoir est HIGH donc non poussé
+  if (button1State == HIGH){     // si l'état du bouton-pressoir est HIGH, donc non poussé
     digitalWrite(ledPin, HIGH);  // allume le LED
   }
-  else {                        // sinon, si l'état du bouton-pressoir est LOW donc npoussé
+  else {                        // sinon, si l'état du bouton-pressoir est LOW, donc poussé
     digitalWrite(ledPin, LOW);  // éteint le LED
   }
 }

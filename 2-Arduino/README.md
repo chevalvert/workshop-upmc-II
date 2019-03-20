@@ -118,20 +118,21 @@ Lit la valeur de la broche analogique et mappe sa tension d'entrée (comprise en
 
 [→ exercice 2 : LED + potentiomètre](/2-Arduino/ex02_LED_potentiometer)
 
-[`analogWrite()`](https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/)
-Écris une valeur analogique (avec une [onde PWM](https://www.arduino.cc/en/Tutorial/PWM)) sur une broche. La fonction peut être utilisée pour allumer une LED à différentes intensités ou pour faire bouger un moteur à différentes vitesses.
+[`analogWrite()`](https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/)  
+Écris une valeur analogique (avec une [onde PWM](https://www.arduino.cc/en/Tutorial/PWM)) sur une broche. La fonction peut être utilisée pour allumer une LED à différentes intensités ou pour faire bouger un moteur à différentes vitesses.  
+
 [→ exercice 2 bis : LED + potentiomètre](/2-Arduino/ex02_LED_potentiometer_dimmer)
 
 
 ### 4 - `digitalRead()`, structures de contrôle, opérateurs boléens
 
-[`digitalRead()`](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalread/)
+[`digitalRead()`](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalread/)  
 Lit la valeur de la broche numérique spécifiée, qui sera soit HIGH ou LOW.
 
 Comme un bouton-poussoir n'a que deux états (poussé ou non poussé), il faut le connecter sur une broche digitale que nous allons déclarér comme `INPUT`.
 Pour lire cette entrée, nous utilisons la fonction `digitalRead()` Cette fonction prend un paramètre (le numéro de broche), et renvoie soit HIGH (5V) soit LOW (GND).
 
-Structures de contrôle :
+[Structures de contrôle](https://www.arduino.cc/reference/en/#structure) :
 - `if ...`
 - `if ... else ...`
 - `if ... else if ... else`
@@ -142,7 +143,7 @@ Structures de contrôle :
 Opérateurs boléens :
 - `&&`  and
 - `||`  or 
-- `!`  different from
+- `!`  not
 
 [→ exercice 4 : LED + 2 bouttons pressoirs](/2-Arduino/ex04_pushbuttons_LED)
 

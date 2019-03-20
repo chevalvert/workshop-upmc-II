@@ -3,11 +3,7 @@
 ![ex04_pushbuttons_LED.gif](ex04_pushbuttons_LED.gif)
 
 # Description du programme
-Utiliser un bouton-pressoir pour créer un signal d'entrée `digital input` pour allumer et éteindre le LED.
-
-Connecter un côté du bouton-poussoir à GND et l’autre côté à une broche numérique. 
-Quand on appuie sur le bouton poussoir, la broche sera connectée à GND, et sera donc lue comme "LOW" par l'Arduino.
-
+Utiliser un bouton-pressoir pour créer un signal d'entrée `digital input` pour allumer le LED.
 
 # Matériel
   - Arduino Uno
@@ -30,16 +26,29 @@ Quand on appuie sur le bouton poussoir, la broche sera connectée à GND, et ser
     Rappelez-vous que, contrairement aux entrées analogiques, les entrées numériques ne sont que HIGH ou LOW.
 
 # Déroulé des actions programmées
-  - 
-  - 
-  - 
-  - 
+  - Quand on n'appuie pas sur les boutons poussoirs :
+      - la broche `digital pin 2` est lue comme `HIGH` par l'Arduino
+      - le LED est éteint
 
-# Bouton-pressoir
+  - Quand on appuie sur un bouton poussoir :
+      - la broche du bouton se connecte à GND
+      - la broche `digital pin 2` est lue comme `LOW` par l'Arduino
+      - le LED s'allume
 
-Les boutons-poussoirs ont deux contacts qui se connectent lorsque vous appuyez sur le bouton.
-Rappelez-vous que si le bouton est enfoncé, il sera connecté à GND. Si le bouton n'est pas enfoncé, la résistance pullup le connectera à 5 volts.
-**Ainsi, l’état sera LOW lorsqu’il est pressé et HIGH quand il n’est pas pressé.**
+
+# Bouton-poussoir
+
+Les boutons-poussoirs ont deux broches qui se connectent lorsque vous appuyez sur le bouton.
+
+
+# `digitalRead()`
+
+Comme un bouton-poussoir n'a que deux états (poussé ou non poussé), il faut le connecter sur une broche `digital` que nous allons déclarér comme `INPUT`. 
+
+Pour lire cette entrée, nous utilisons la fonction `digitalRead ()`. Cette fonction prend un paramètre (le numéro de broche), et renvoie soit `HIGH` (5V) soit `LOW` (GND).
+
+Si le bouton est enfoncé, il sera connecté à GND. Si le bouton n'est pas enfoncé, la résistance pullup le connectera à 5 volts.
+**Ainsi, l’état de `digital pin 2` sera `LOW` lorsque le bouton sera appuyé et `HIGH` quand il ne sera pas appuyé.**
 
 
 # Structures de contrôle, opérateurs boléens
@@ -58,7 +67,7 @@ On peut utiliser les opérateurs `&&` et `||` dans des structures de contrôle, 
 
 Nous pouvons utiliser ces opérateurs pour traduire les phrases ci-dessus en instructions logiques (rappelez-vous que LOW signifie que le bouton est enfoncé)
 
-"Si l'un des boutons est enfoncé, le voyant s'allume" devient:
+"Si l'un des boutons est enfoncé le voyant s'allume" devient:
 ```java
  if ((button1State == LOW) && (button2State == HIGH)) // Seul le bouton 1 est enfoncé, allume le LED
  if ((button1State == HIGH) && (button2State == LOW)) // Seul le bouton 2 est enfoncé, allume le LED
