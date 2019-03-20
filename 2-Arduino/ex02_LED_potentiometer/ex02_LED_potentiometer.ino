@@ -35,7 +35,8 @@ int potValue;          // Déclaration d'une variable entière pour stocker la v
 
 // 2 - Fonction setup()
 void setup(){
-  // commandes exécutées une seule fois, au lancement du programme   
+  // commandes exécutées une seule fois, au lancement du programme  
+  Serial.begin(9600);      // open the serial port at 9600 bps: 
   pinMode(ledPin, OUTPUT);      // pour utiliser la broche 13 pour allumer une LED il faut la configurer comme sortie
 }
 
@@ -43,7 +44,8 @@ void setup(){
 void loop(){
   // commandes exécutées cycliquement
   potValue = analogRead(potPin);    // potValue prend une valeur entre 0 et 1023, en fonction de la position du potPin
-
+  Serial.println(potValue); 
+  
   digitalWrite(ledPin, HIGH);       // allume le LED (tension HIGH)
   delay(potValue);                  // temps de pause définie par la position du potentiomètre
   digitalWrite(ledPin, LOW);        // éteint le LED off (tension LOW)

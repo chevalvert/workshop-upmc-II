@@ -109,42 +109,38 @@ Cours 2 (salle micro 101) :
 	- note d’intention
 	- descriptif des programmes de prototypage à réaliser 
 	- écriture des programmes de prototypage sur Processing
-	- Si nous avons le temps
-		- présentation des catalogues de capteurs [Sparkfun](https://www.sparkfun.com/categories/23) et [Adafruit](https://www.adafruit.com/?q=sensors)
-		- complétion du tableau de compétence de captation animal avec une colonne dédiée aux capteurs disponibles sur le catalogue
 
+Cours 3 (salle créativité) :
+- Initiation à Arduino 
+- Communication Processing < > Arduino
+- Initiation aux capteurs
+		- Présentation des catalogues de capteurs [Sparkfun](https://www.sparkfun.com/categories/23) et [Adafruit](https://www.adafruit.com/?q=sensors)
+		- Complétion du tableau de compétence de captation animal avec une colonne dédiée aux capteurs disponibles sur le catalogue
+		- Complétion du tableau avec les capteurs disponibles au fablab
+		- Complétion du tableau avec des solutions low tech
+- Conception des dispositifs : 
+	- le descriptif des programmes
+	- réalisation de PoCs (Proof of Concept)
+	- choix d'un dispositif
+	- synoptique technique du dispositif choisi
 
 Tableau de compétence de captation animal
 
 | Animal         | Particularité  | Organe/capteur   | Possibilité  | Capteur dans le marché  | Capteur disponible dans le fablab  | Système de captation conçu de façon low-tech  |
 | :-----------:  |:--------------:|:----------------:|:------------:|:-----------------------:|:----------------------------------:|:---------------------------------------------:|
-| —			     | —			  | —			     | —		    | —			     		  | —			     	      	       | —			       			  	      	       |	
+| —			     | —			  | —			     | —		    | —			     		  | —			     	      	       | —			       			  	      	       |
 | 			     | —			  | —			     | —		    | —			     		  | —			     	      	       | —			       			  	      	       |
 | 			     | —			  | —			     | —		    | —			     		  | —			     	      	       | —			       			  	      	       |
 
-
-
-Cours 3 (salle 46-56-101 créa fablab) :
-- Initiation à Arduino 
-- Communication Processing < > Arduino
-- Initiation aux capteurs
-- Complétion du tableau avec les capteurs disponibles au fablab
-- Complétion du tableau avec des solutions low tech
-- Conception des dispositifs : 
-	- le descriptif des programmes
-	- réalisation de PoCs
-	- choix d'un dispositif
-	- synoptique technique du dispositif choisi
-
-Cours 4 (salle 46-56-101 créa fablab) :
+Cours 4 (salle créativité) :
 - Réalisation du dispositif
 - Documentation
 
-Cours 5 (salle 46-56-101 créa fablab) :
+Cours 5 (salle créativité) :
 - Réalisation du dispositif
 - Documentation
 
-Cours 6 (salle 46-56-101 créa fablab) :
+Cours 6 (salle créativité) :
 - Réalisation du dispositif
 - Documentation
 - Présentation
