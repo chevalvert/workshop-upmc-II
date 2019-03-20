@@ -106,7 +106,7 @@ Configure la broche pour qu'elle se comporte comme une entrée ou une sortie.
 [→ exercice 1 : blink LED](/2-Arduino/ex01_blink_LED)
 
 
-### 3 - Variables, `analogRead()` et `println`
+### 3 - Variables, `analogRead()` et `println()`
 
 [Variable](https://www.arduino.cc/en/Reference/VariableDeclaration)  
 Une variable est un moyen de nommer et de stocker une valeur pour une utilisation ultérieure par le programme (par exemple des données provenant d'un capteur ou une valeur intermédiaire utilisée dans un calcul de mapping).
@@ -114,14 +114,14 @@ Une variable est un moyen de nommer et de stocker une valeur pour une utilisatio
 [`analogRead()`](https://www.arduino.cc/en/Reference/AnalogRead?setlang=en)  
 Lit la valeur de la broche analogique et mappe sa tension d'entrée (comprise entre 0 et 5 volts) en valeurs entières (comprises entre 0 et 1023).
 
-[`println`](https://www.arduino.cc/en/Serial/Println)
+[`println()`](https://www.arduino.cc/en/Serial/Println)
 
 [→ exercice 2 : LED + potentiomètre](/2-Arduino/ex02_LED_potentiometer)
 
 
-### 4 - Structures de contrôle, opérateurs boléens et `digitalRead()`
+### 4 - `digitalRead()`, structures de contrôle, opérateurs boléens
 
-`digitalRead()`(https://www.arduino.cc/reference/en/language/functions/digital-io/digitalread/)
+[`digitalRead()`](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalread/)
 Lit la valeur de la broche numérique spécifiée, qui sera soit HIGH ou LOW.
 
 Comme un bouton-poussoir n'a que deux états (poussé ou non poussé), il faut le connecter sur une broche digitale que nous allons déclarér comme `INPUT`.
