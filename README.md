@@ -133,7 +133,7 @@ Tableau de compétence de captation animal
 | 			     | —			  | —			     | —		    | —			     		  | —			     	      	       | —			       			  	      	       |
 
 Cours 4 (salle créativité) :
-- Réalisation du dispositif
+- Réalisation du [prototype](https://medium.com/a-view-from-above/exploratory-prototyping-in-product-design-6d89ff17f542)
 - Documentation
 
 Cours 5 (salle créativité) :

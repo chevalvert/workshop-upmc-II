@@ -147,7 +147,17 @@ Opérateurs boléens :
 
 [→ exercice 4 : LED + 2 bouttons pressoirs](/2-Arduino/ex04_pushbuttons_LED)
 
+### Loi d'ohm
+La [loi d'Ohm](https://fr.wikipedia.org/wiki/Loi_d%27Ohm) permet de déterminer la valeur d'une résistance :
+`U = R * I`
 
+- U la tension aux bornes de la résistance, en volt (V)
+- R la valeur de la résistance, en ohm (Ω)
+- I l’intensité du courant qui circule à travers la résistance, en ampère (A)
+
+`U = R x I` permet de calculer le tension lorsque la résistance et l’intensité sont connues.
+`I = U / R` permet de calculer l’intensité lorsque la tension et la résistance sont connues.
+`R = U / I` permet de calculer la résistance lorsque la tension et l’intensité sont connues
 
 ## License
 

@@ -1,5 +1,5 @@
 /* 
- * sensoShield n1
+ * sensoShield n2
  * SensorShieldlib Lionel Radisson - @Makio135
  * https://github.com/MAKIO135/sensorShieldLib
  */
