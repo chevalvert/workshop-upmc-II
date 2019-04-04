@@ -1,7 +1,6 @@
 # UE Outils de représentation et d'interaction : Initiation à Processing et à Arduino
 
 ## Studio Chevalvert
-
 [Chevalvert](https://chevalvert.fr/about/) est un studio de design visuel basé à Paris.
 Le studio conçoit des [identités](https://chevalvert.fr/identite/), des [typographies](https://chevalvert.fr/typographie/relief/) et des [installations interactives](https://chevalvert.fr/installation/).
 
@@ -18,7 +17,6 @@ Une autre possibilité est de lier la génération graphique de Processing à de
 
 
 ## Objectifs du workshop 
-
 6 séances de 4h
 - S'initier à [Processing](https://processing.org/)
 - S'initier à [Arduino](https://www.arduino.cc/)
@@ -27,8 +25,8 @@ Une autre possibilité est de lier la génération graphique de Processing à de
 - Concevoir et prototyper un dispositif ou une expérience de captation/perception (par groupes de 3)
 - Présenter le projet lors de la dernière séance
 
-## Processus et documentation 
 
+## Processus et documentation 
 Tout au long du workshop vous devrez respecter une méthodologie de documentation de vos projets. Pour cela :
 
 - Nous analyserons la méthodologie pour concevoir, réaliser et documenter des prototypes de dispositifs interactifs (étude de cas du projet ["Ink under paper"](https://bricks.chevalvert.fr/projects/ink-under-paper/user:upmc) du studio Chevalvert)
@@ -46,8 +44,8 @@ Tout au long du workshop vous devrez respecter une méthodologie de documentatio
     - le programme et le circuit nécessaire
     - la documentation photo et/ou vidéo  
 
-### Exemples de documentation
 
+### Exemples de documentation
 Sur Twitter, beaucoup d'artistes, designer et développeurs créatifs documentent leurs projets de façon totalement décomplexée. 
 
 L'important n'est pas de montrer un projet fini avec une vidéo léchée, mais de documenter le _work in progress_ avec son lot d'erreurs et de bugs.
@@ -61,9 +59,9 @@ Twitter devient un journal de bord.
 [![overview/tw05.png](overview/tw05.png)](https://twitter.com/quasimondo/status/1099344714518724608)
 [![overview/tw06.png](overview/tw06.png)](https://twitter.com/inconvergent/status/1094188053940367360)
 
+
 ## Sujet : Humanimal
 ### Être capteur
-
 En collaboration avec Simon Renaud.
 
 #### Problématique
@@ -98,31 +96,39 @@ Il y a diverses modalités de stimulus :
 *Diagrammes par Simon Renaud*
 
 ### Déroulé
-Cours 1 (salle informatique 435) : 
+**Cours 1 (salle informatique 435) :** 
 - Présentation du studio Chevalvert et de quelques uns de ses projets (30min)
 - Initiation à Processing : outil de dessin (2h30)
 - Présentation des projets initiés par les groupes (1h)
 
-Cours 2 (salle micro 101) :
+
+**Cours 2 (salle micro 101) :**
 - Suite de l'initiation à Processing
 - Travail par groupes sur le projet
 	- note d’intention
 	- descriptif des programmes de prototypage à réaliser 
 	- écriture des programmes de prototypage sur Processing
 
-Cours 3 (salle créativité) :
+
+**Cours 3 (salle créativité) :**
 - Initiation à Arduino 
 - Communication Processing < > Arduino
-- Initiation aux capteurs
-		- Présentation des catalogues de capteurs [Sparkfun](https://www.sparkfun.com/categories/23) et [Adafruit](https://www.adafruit.com/?q=sensors)
+- Initiation aux capteurs : présentation des catalogues de capteurs [Sparkfun](https://www.sparkfun.com/categories/23) et [Adafruit](https://www.adafruit.com/?q=sensors)
+
+
+**Cours 4 (salle créativité) :**
+- Conception du dispositif : 
+	- réaliser le descriptif des programmes Arduino et Processing
+	- réalisaer un PoC (Proof of Concept)
+	- écrire les synoptiques techniques du dispositif (matériel, câblage etc.)
+- Réalisation du [prototype](https://medium.com/a-view-from-above/exploratory-prototyping-in-product-design-6d89ff17f542)
+- Documentation
+
+- Recherche sur les capteurs :
+		- Consultation des catalogues de capteurs [Sparkfun](https://www.sparkfun.com/categories/23) et [Adafruit](https://www.adafruit.com/?q=sensors)
 		- Complétion du tableau de compétence de captation animal avec une colonne dédiée aux capteurs disponibles sur le catalogue
 		- Complétion du tableau avec les capteurs disponibles au fablab
 		- Complétion du tableau avec des solutions low tech
-- Conception des dispositifs : 
-	- le descriptif des programmes
-	- réalisation de PoCs (Proof of Concept)
-	- choix d'un dispositif
-	- synoptique technique du dispositif choisi
 
 Tableau de compétence de captation animal
 
@@ -132,27 +138,26 @@ Tableau de compétence de captation animal
 | 			     | —			  | —			     | —		    | —			     		  | —			     	      	       | —			       			  	      	       |
 | 			     | —			  | —			     | —		    | —			     		  | —			     	      	       | —			       			  	      	       |
 
-Cours 4 (salle créativité) :
-- Réalisation du [prototype](https://medium.com/a-view-from-above/exploratory-prototyping-in-product-design-6d89ff17f542)
-- Documentation
 
-Cours 5 (salle créativité) :
+**Cours 5 (salle créativité) :**
 - Réalisation du dispositif
 - Documentation
 
-Cours 6 (salle créativité) :
+
+**Cours 6 (salle créativité) :**
 - Réalisation du dispositif
 - Documentation
 - Présentation
 
 ## Qu'est-ce que Processing ?
-
 [→ Initiation à Processing](/1-Processing)
 
 ## Qu'est-ce qu'Arduino ?
-
 [→ Initiation à Arduino](/2-Arduino)
 
-## License
+## Communcation entre les deux plateformes
+[→ Communcation entre Processing et Arduino](/3-Com-SensorShield)
 
+
+## License
 [MIT.](https://tldrlegal.com/license/mit-license)
