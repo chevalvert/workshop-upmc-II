@@ -26,23 +26,28 @@ Une autre possibilité est de lier la génération graphique de Processing à de
 - Présenter le projet lors de la dernière séance
 
 
-## Processus et documentation 
+## Processus, documentation et rendu 
 Tout au long du workshop vous devrez respecter une méthodologie de documentation de vos projets. Pour cela :
 
 - Nous analyserons la méthodologie pour concevoir, réaliser et documenter des prototypes de dispositifs interactifs (étude de cas du projet ["Ink under paper"](https://bricks.chevalvert.fr/projects/ink-under-paper/user:upmc) du studio Chevalvert)
 
+Toute la documentation devra se faire sur le Wiki du FabLab Sorbonne et devra nous être envoyée dans un dossier .zip par email à arnaud@chevalvert.fr et julia@chevalvert.fr
+
 - Pour chacun des exercices pratiques vous créerez un dossier avec
+	- le descriptif écrit du programme
 	- le programme
-	- le schéma du circuit (s'il y en a)
-	- une photo du circuit et/ou une capture d'écran du résultat visuel du programme
-	- une vidéo/des photos du dispositif en action
+	- le schéma du circuit (sur Fritzing ou à la main)
+ 	- liste du matériel et du logiciel utilisé (Arduino, Processing, capteurs, résistances etc.)
+    - la documentation photo et vidéo
 
 - Pour le projet final vous réaliserez :
 	- la note d’intention
-    - le descriptif du programme
-    - le synoptique technique
-    - le programme et le circuit nécessaire
-    - la documentation photo et/ou vidéo  
+    - le descriptif écrit du programme
+    - le programme
+    - le schéma du circuit
+ 	- liste du matériel et du logiciel utilisé (Arduino, Processing, capteurs, résistances etc.)
+    - la documentation photo et vidéo  
+ 	- le dispositif pour faire une démonstration lors du rendu
 
 
 ### Exemples de documentation
