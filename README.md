@@ -27,10 +27,14 @@ Une autre possibilité est de lier la génération graphique de Processing à de
 
 
 ## Processus, documentation et rendu 
-Tout au long du workshop vous devrez respecter une méthodologie de documentation de vos projets. Pour cela :
+Tout au long du workshop vous devrez respecter une méthodologie de documentation de vos projets. Pour cela nous analyserons la méthodologie pour concevoir, réaliser et documenter des prototypes de dispositifs interactifs (étude de cas du projet ["Ink under paper"](https://bricks.chevalvert.fr/projects/ink-under-paper/user:upmc) du studio Chevalvert)
 
-- Nous analyserons la méthodologie pour concevoir, réaliser et documenter des prototypes de dispositifs interactifs (étude de cas du projet ["Ink under paper"](https://bricks.chevalvert.fr/projects/ink-under-paper/user:upmc) du studio Chevalvert)
+### Dates de rendu 
+1er rendu : le jeudi 18 avril
+2e rendu : le 9 mai (avec Simon Renaud)
 
+
+### Contenus du rendu
 Toute la documentation devra se faire sur le Wiki du FabLab Sorbonne et devra nous être envoyée dans un dossier .zip par email à arnaud@chevalvert.fr et julia@chevalvert.fr
 
 - Pour chacun des exercices pratiques vous créerez un dossier avec
@@ -40,7 +44,7 @@ Toute la documentation devra se faire sur le Wiki du FabLab Sorbonne et devra no
  	- liste du matériel et du logiciel utilisé (Arduino, Processing, capteurs, résistances etc.)
     - la documentation photo et vidéo
 
-- Pour le projet final vous réaliserez :
+- Pour le dispositif que vous allez présenter le 18 avril et le 9 mai :
 	- la note d’intention
     - le descriptif écrit du programme
     - le programme
