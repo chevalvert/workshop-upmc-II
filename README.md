@@ -30,7 +30,7 @@ Une autre possibilité est de lier la génération graphique de Processing à de
 Tout au long du workshop vous devrez respecter une méthodologie de documentation de vos projets. Pour cela nous analyserons la méthodologie pour concevoir, réaliser et documenter des prototypes de dispositifs interactifs (étude de cas du projet ["Ink under paper"](https://bricks.chevalvert.fr/projects/ink-under-paper/user:upmc) du studio Chevalvert)
 
 ### Dates de rendu 
-1er rendu : le jeudi 18 avril
+1er rendu : le jeudi 18 avril  
 2e rendu : le 9 mai (avec Simon Renaud)
 
 
