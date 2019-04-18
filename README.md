@@ -77,7 +77,7 @@ En collaboration avec Simon Renaud.
 "Agir & percevoir à la manière de..."
 
 
-#### Sélection des contenus présentées par Simon Renaud
+#### Sélection des contenus présentés par Simon Renaud
 
 ##### Notre corps, notre vision du monde.
 Nous percevons le monde extérieur grâce à nos organes de sens.
@@ -168,9 +168,9 @@ Tableau de compétence de captation animal
 [→ Communcation entre Processing et Arduino](/3-Com-SensorShield)
 
 ## Prototypes
-[Pratique du prototypage](https://medium.com/a-view-from-above/exploratory-prototyping-in-product-design-6d89ff17f542)
-[Pigeon vision](http://tibaut.co.uk/projects/pigeon-vision) de Thibaut Evrard
-[Chindogu](https://www.google.com/search?q=chindogu&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiOjvGOmbbhAhWMoBQKHT2GCOMQ_AUIDigB&biw=1393&bih=1099)
+[Pratique du prototypage](https://medium.com/a-view-from-above/exploratory-prototyping-in-product-design-6d89ff17f542)  
+[Pigeon vision](http://tibaut.co.uk/projects/pigeon-vision) de Thibaut Evrard  
+[Chindogu](https://www.google.com/search?q=chindogu&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiOjvGOmbbhAhWMoBQKHT2GCOMQ_AUIDigB&biw=1393&bih=1099)  
 [Unnecessary inventions](https://www.instagram.com/unnecessaryinventions/)
 
 ## License
